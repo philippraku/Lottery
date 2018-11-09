@@ -6,7 +6,7 @@ function init() {
 
 function getData() {
 
-    let URL = "http://davidst.edumedia.ca/mad9014/nums.php?";
+    let URL = "https://davidst.edumedia.ca/mad9014/nums.php?";
     let formData = new FormData();
 
     let Digits = document.getElementById("digits").value;
