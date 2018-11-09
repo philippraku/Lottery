@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*************************************************
+            DEFAULTS
+*************************************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-content: center;
+    text-align: center;
+}
+
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 16px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+button,
+input {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#home {
+    display: block;
+}
+
+#list {
+    display: none;
+}
+
+#numbers {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+ul {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    font-size: 1rem;
+}
+
+/*************************************************
+            HEADER
+*************************************************/
+header {
+    padding: 1rem 2rem;
+}
+
+
+/*************************************************
+            MAIN CONTENT
+*************************************************/
+.num_list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+section > p {
+    padding: 0 0 1rem 0;
+}
+
+
+/*************************************************
+            FOOTER
+*************************************************/
+footer {
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+
+/*************************************************
+            MEDIA QUERIES for layout
+*************************************************/
+@media (max-width: 599px) {
+
+    li {
+        font-size: 1.1rem;
+    }
+
+    button,
+    label,
+    span,
+    footer {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width:999px) {
+
+    li {
+        font-size: 2rem;
+    }
+
+    button,
+    label,
+    span,
+    footer {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    li {
+        font-size: 2.5rem;
+    }
+
+    button,
+    label,
+    span,
+    footer {
+        font-size: 1.3rem;
+    }
+
+}
